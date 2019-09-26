@@ -1,5 +1,5 @@
 $bgColor: rgb(45, 45, 45);
-$shadow: #5b81fd;
+$dashColor2: #5b81fd;
 $dashColor: #4973ff;
 
 body {
@@ -28,6 +28,7 @@ body {
             transform-origin: center right;
             animation: moveTwo 3s linear infinite;
             animation-delay: .16s;
+            background: $dashColor2;
         }
         .three {
             transform-origin: center right;
@@ -38,6 +39,7 @@ body {
             transform-origin: center right;
             animation: moveFour 3s linear infinite;
             animation-delay: .4s;
+            background: $dashColor2;
         }
     }
     @keyframes moveOne {
